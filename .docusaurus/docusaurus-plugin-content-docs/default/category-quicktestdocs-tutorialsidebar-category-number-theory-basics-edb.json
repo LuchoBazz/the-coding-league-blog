@@ -1,0 +1,16 @@
+{
+  "title": "Number Theory Basics",
+  "description": "Learn the most important Number Theory concepts.",
+  "slug": "/category/number-theory-basics",
+  "permalink": "/quicktest/docs/category/number-theory-basics",
+  "navigation": {
+    "previous": {
+      "title": "Translate your site",
+      "permalink": "/quicktest/docs/tutorial-extras/translate-your-site"
+    },
+    "next": {
+      "title": "Aritmetica Modular",
+      "permalink": "/quicktest/docs/number-theory-basics/modular-arithmetic"
+    }
+  }
+}

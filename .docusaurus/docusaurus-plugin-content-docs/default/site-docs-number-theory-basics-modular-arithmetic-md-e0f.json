@@ -6,9 +6,9 @@
   "source": "@site/docs/number-theory-basics/modular-arithmetic.md",
   "sourceDirName": "number-theory-basics",
   "slug": "/number-theory-basics/modular-arithmetic",
-  "permalink": "/docs/number-theory-basics/modular-arithmetic",
+  "permalink": "/the-coding-league-blog/docs/number-theory-basics/modular-arithmetic",
   "draft": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/number-theory-basics/modular-arithmetic.md",
+  "editUrl": "https://github.com/LuisMBaezCo/the-coding-league-blog/docs/number-theory-basics/modular-arithmetic.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -18,10 +18,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Number Theory Basics",
-    "permalink": "/docs/category/number-theory-basics"
+    "permalink": "/the-coding-league-blog/docs/category/number-theory-basics"
   },
   "next": {
     "title": "Algoritmo de Euclides",
-    "permalink": "/docs/number-theory-basics/euclidean-algorithm"
+    "permalink": "/the-coding-league-blog/docs/number-theory-basics/euclidean-algorithm"
   }
 }

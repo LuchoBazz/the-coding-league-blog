@@ -4,19 +4,19 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
-  "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/",
+  "title": "The Coding League Blog",
+  "tagline": "Blog sobre temas de Programación Competitiva en Español",
+  "url": "https://LuisMBaezCo.github.io",
+  "baseUrl": "/the-coding-league-blog/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "LuisMBaezCo",
+  "projectName": "the-coding-league-blog",
   "i18n": {
-    "defaultLocale": "en",
+    "defaultLocale": "es",
     "locales": [
-      "en"
+      "es"
     ],
     "path": "i18n",
     "localeConfigs": {}
@@ -27,7 +27,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "/home/sorkierkegaard/Documentos/Github/LuisMBaezCo/the-coding-league-blog/sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          "editUrl": "https://github.com/LuisMBaezCo/the-coding-league-blog/",
           "remarkPlugins": [
             null
           ],
@@ -37,7 +37,7 @@ export default {
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/LuisMBaezCo/the-coding-league-blog/"
         },
         "theme": {
           "customCss": "/home/sorkierkegaard/Documentos/Github/LuisMBaezCo/the-coding-league-blog/src/css/custom.css"
@@ -55,9 +55,9 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
+      "title": "The Coding League Blog",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "The Coding League Logo",
         "src": "img/logo.svg"
       },
       "items": [
@@ -73,7 +73,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/LuisMBaezCo/the-coding-league-blog",
           "label": "GitHub",
           "position": "right"
         }
@@ -97,15 +97,15 @@ export default {
           "items": [
             {
               "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "href": "https://stackoverflow.com/questions/tagged/the-coding-league"
             },
             {
               "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "href": "https://discordapp.com/invite/the-coding-league"
             },
             {
               "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "href": "https://twitter.com/the-coding-league"
             }
           ]
         },
@@ -118,12 +118,12 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/LuisMBaezCo/the-coding-league-blog"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2022 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2022 The Coding League Blog, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {

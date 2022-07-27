@@ -3,193 +3,133 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '1cf'),
+    path: '/the-coding-league-blog/__docusaurus/debug',
+    component: ComponentCreator('/the-coding-league-blog/__docusaurus/debug', '328'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5e9'),
+    path: '/the-coding-league-blog/__docusaurus/debug/config',
+    component: ComponentCreator('/the-coding-league-blog/__docusaurus/debug/config', '9cf'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'b2e'),
+    path: '/the-coding-league-blog/__docusaurus/debug/content',
+    component: ComponentCreator('/the-coding-league-blog/__docusaurus/debug/content', 'a74'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'cf5'),
+    path: '/the-coding-league-blog/__docusaurus/debug/globalData',
+    component: ComponentCreator('/the-coding-league-blog/__docusaurus/debug/globalData', '6f3'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '446'),
+    path: '/the-coding-league-blog/__docusaurus/debug/metadata',
+    component: ComponentCreator('/the-coding-league-blog/__docusaurus/debug/metadata', 'f43'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '634'),
+    path: '/the-coding-league-blog/__docusaurus/debug/registry',
+    component: ComponentCreator('/the-coding-league-blog/__docusaurus/debug/registry', '237'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '3ad'),
+    path: '/the-coding-league-blog/__docusaurus/debug/routes',
+    component: ComponentCreator('/the-coding-league-blog/__docusaurus/debug/routes', 'a79'),
     exact: true
   },
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', '5bb'),
+    path: '/the-coding-league-blog/blog',
+    component: ComponentCreator('/the-coding-league-blog/blog', '052'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '3d0'),
+    path: '/the-coding-league-blog/blog/archive',
+    component: ComponentCreator('/the-coding-league-blog/blog/archive', '6ad'),
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '642'),
+    path: '/the-coding-league-blog/blog/first-blog-post',
+    component: ComponentCreator('/the-coding-league-blog/blog/first-blog-post', 'e9d'),
     exact: true
   },
   {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', 'f8a'),
+    path: '/the-coding-league-blog/blog/long-blog-post',
+    component: ComponentCreator('/the-coding-league-blog/blog/long-blog-post', '510'),
     exact: true
   },
   {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', 'b90'),
+    path: '/the-coding-league-blog/blog/mdx-blog-post',
+    component: ComponentCreator('/the-coding-league-blog/blog/mdx-blog-post', '46f'),
     exact: true
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '3c0'),
+    path: '/the-coding-league-blog/blog/tags',
+    component: ComponentCreator('/the-coding-league-blog/blog/tags', '6f4'),
     exact: true
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '159'),
+    path: '/the-coding-league-blog/blog/tags/docusaurus',
+    component: ComponentCreator('/the-coding-league-blog/blog/tags/docusaurus', '1bc'),
     exact: true
   },
   {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', 'f3a'),
+    path: '/the-coding-league-blog/blog/tags/facebook',
+    component: ComponentCreator('/the-coding-league-blog/blog/tags/facebook', 'bf6'),
     exact: true
   },
   {
-    path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', 'f4f'),
+    path: '/the-coding-league-blog/blog/tags/hello',
+    component: ComponentCreator('/the-coding-league-blog/blog/tags/hello', '19d'),
     exact: true
   },
   {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '5a5'),
+    path: '/the-coding-league-blog/blog/tags/hola',
+    component: ComponentCreator('/the-coding-league-blog/blog/tags/hola', '350'),
     exact: true
   },
   {
-    path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', '282'),
+    path: '/the-coding-league-blog/blog/welcome',
+    component: ComponentCreator('/the-coding-league-blog/blog/welcome', 'e50'),
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '7ff'),
+    path: '/the-coding-league-blog/markdown-page',
+    component: ComponentCreator('/the-coding-league-blog/markdown-page', '735'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', '2cd'),
+    path: '/the-coding-league-blog/docs',
+    component: ComponentCreator('/the-coding-league-blog/docs', '577'),
     routes: [
       {
-        path: '/docs/category/number-theory-basics',
-        component: ComponentCreator('/docs/category/number-theory-basics', 'b0c'),
+        path: '/the-coding-league-blog/docs/category/number-theory-basics',
+        component: ComponentCreator('/the-coding-league-blog/docs/category/number-theory-basics', '2da'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/tutorial---basics',
-        component: ComponentCreator('/docs/category/tutorial---basics', 'd44'),
+        path: '/the-coding-league-blog/docs/intro',
+        component: ComponentCreator('/the-coding-league-blog/docs/intro', '1e8'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/tutorial---extras',
-        component: ComponentCreator('/docs/category/tutorial---extras', 'f09'),
+        path: '/the-coding-league-blog/docs/number-theory-basics/euclidean-algorithm',
+        component: ComponentCreator('/the-coding-league-blog/docs/number-theory-basics/euclidean-algorithm', '0d7'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/intro',
-        component: ComponentCreator('/docs/intro', 'aed'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/number-theory-basics/euclidean-algorithm',
-        component: ComponentCreator('/docs/number-theory-basics/euclidean-algorithm', 'c47'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/number-theory-basics/modular-arithmetic',
-        component: ComponentCreator('/docs/number-theory-basics/modular-arithmetic', '0b7'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/congratulations',
-        component: ComponentCreator('/docs/tutorial-basics/congratulations', '793'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/create-a-blog-post',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '68e'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/create-a-document',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-document', 'c2d'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/create-a-page',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-page', 'f44'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/deploy-your-site',
-        component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', 'e46'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/markdown-features',
-        component: ComponentCreator('/docs/tutorial-basics/markdown-features', '4b7'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-extras/manage-docs-versions',
-        component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', 'fdd'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-extras/translate-your-site',
-        component: ComponentCreator('/docs/tutorial-extras/translate-your-site', '2d7'),
+        path: '/the-coding-league-blog/docs/number-theory-basics/modular-arithmetic',
+        component: ComponentCreator('/the-coding-league-blog/docs/number-theory-basics/modular-arithmetic', '70e'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
     ]
   },
   {
-    path: '/',
-    component: ComponentCreator('/', '86d'),
+    path: '/the-coding-league-blog/',
+    component: ComponentCreator('/the-coding-league-blog/', '4d3'),
     exact: true
   },
   {

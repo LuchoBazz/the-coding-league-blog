@@ -6,9 +6,9 @@
   "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
   "sourceDirName": "tutorial-extras",
   "slug": "/tutorial-extras/manage-docs-versions",
-  "permalink": "/docs/tutorial-extras/manage-docs-versions",
+  "permalink": "/the-coding-league-blog/docs/tutorial-extras/manage-docs-versions",
   "draft": false,
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/manage-docs-versions.md",
+  "editUrl": "https://github.com/LuisMBaezCo/the-coding-league-blog/docs/tutorial-extras/manage-docs-versions.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Tutorial - Extras",
-    "permalink": "/docs/category/tutorial---extras"
+    "title": "Algoritmo de Euclides",
+    "permalink": "/the-coding-league-blog/docs/number-theory-basics/euclidean-algorithm"
   },
   "next": {
     "title": "Translate your site",
-    "permalink": "/docs/tutorial-extras/translate-your-site"
+    "permalink": "/the-coding-league-blog/docs/tutorial-extras/translate-your-site"
   }
 }
