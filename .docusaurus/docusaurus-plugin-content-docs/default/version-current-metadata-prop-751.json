@@ -47,7 +47,7 @@
     "number-theory-basics/euclidean-algorithm": {
       "id": "number-theory-basics/euclidean-algorithm",
       "title": "Algoritmo de Euclides",
-      "description": "Propiedades",
+      "description": "Implementación C++",
       "sidebar": "tutorialSidebar"
     },
     "number-theory-basics/modular-arithmetic": {

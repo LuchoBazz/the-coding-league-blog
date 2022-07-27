@@ -4,6 +4,16 @@ sidebar_position: 2
 
 # Algoritmo de Euclides
 
+## Implementación C++
+```cpp
+int gcd(int a, int b) {
+    return (b == 0)?a:gcd(b, a % b);
+}
+int lcm(int a, int b) {  
+    return (a * b)/gcd(a, b);  
+}
+```
+
 ## Propiedades
 
 * Dos números se llaman primos relativos, o coprimos, si su máximo común divisor es igual a 1.
@@ -49,7 +59,23 @@ sidebar_position: 2
 
 * Una identidad que implica la función totient de Euler: $\gcd(a,b) = \sum_{k|a \; \hbox{and} \; k|b} \varphi(k).$ donde $k$ son todos divisores comunes de $a$ y $b$.
 
+## Problemas
+
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '10px',
+      color: '#fff',
+      padding: '5px',
+      cursor: 'pointer',
+    }}>
+    {children}
+  </span>
+);
+
+* [GCD and LCM - Codechef](https://www.codechef.com/problems/FLOW016) <Highlight color="#25c2a0">Easy</Highlight>
 
 ## Referencias
 
-- Desde Codeforces por utkarsh.agarwal.min19  [Properties Of GCD function](https://codeforces.com/blog/entry/95694).
+- Desde Codeforces por utkarsh.agarwal.min19 [Properties Of GCD function](https://codeforces.com/blog/entry/95694).

@@ -2,7 +2,7 @@
   "unversionedId": "number-theory-basics/euclidean-algorithm",
   "id": "number-theory-basics/euclidean-algorithm",
   "title": "Algoritmo de Euclides",
-  "description": "Propiedades",
+  "description": "Implementación C++",
   "source": "@site/docs/number-theory-basics/euclidean-algorithm.md",
   "sourceDirName": "number-theory-basics",
   "slug": "/number-theory-basics/euclidean-algorithm",
