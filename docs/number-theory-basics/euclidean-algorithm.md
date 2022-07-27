@@ -36,4 +36,17 @@ sidebar_position: 2
 
 * Las siguientes versiones de distributividad son válidas: $gcd\left(a,\:lcm\left(b,\:c\right)\right)\:=\:lcm\left(gcd\left(a,\:b\right),\:gcd\left(a,\:c\right)\right)$ y $\:lcm\left(a,\:gcd\left(b,\:c\right)\right)\:=\:gcd\:\left(lcm\left(a,\:b\right),\:lcm\left(a,\:c\right)\right)$.
 
-* Si tenemos las factorizaciones en primos únicas de $a\:=\:p_1^{e_1}⋅p_2^{e_2}⋅p_3^{e_3}⋅⋅⋅p_m^{e_m}$ y $b=\:p_1^{f_1}⋅p_2^{f_2}⋅p_3^{f_3}⋅⋅⋅p_m^{f_m}$ donde $e_i\:\ge \:0\:$ y $\:f_i\:\ge \:0$, entonces el gcd de a y b es gcd(a,b) = p1^min(e1,f1) p2^min(e2,f2) ⋅⋅⋅ pm^min(em,fm).
+* Si tenemos las factorizaciones en primos únicas de $a\:=\:p_1^{e_1}⋅p_2^{e_2}⋅p_3^{e_3}⋅⋅⋅p_m^{e_m}$ y $b=\:p_1^{f_1}⋅p_2^{f_2}⋅p_3^{f_3}⋅⋅⋅p_m^{f_m}$ donde $e_i\:\ge \:0\:$ y $\:f_i\:\ge \:0$, entonces el gcd de $a$ y $b$ es:
+    * $$gcd\left(a,b\right)\:=\:p_1^{min\left(e_1,\:f_1\right)}\cdot p_2^{min\left(e_2,\:f_2\right)}\cdot p_3^{min\left(e_3,\:f_3\right)}\cdot \cdot \cdot p_m^{min\left(e_m,\:f_m\right)}$$.
+
+* En un sistema de coordenadas cartesianas, $gcd\left(a,\:b\right)$ puede interpretarse como el número de segmentos entre puntos con coordenadas integrales en el segmento de línea recta que une los puntos $\left(0,\:0\right)\:y\:\left(a,\:b\right).$
+
+* Para números enteros no negativos $a$ y $b$, donde $a$ y $b$ no son cero, demostrable considerando el algoritmo euclidiano en base $n$, simplemente establece que:
+    * $$gcd\left(n^a-1,n^b-1\right)=n^{gcd\left(a,b\right)}-1$$
+
+* Una identidad que implica la función totient de Euler: $\gcd(a,b) = \sum_{k|a \; \hbox{and} \; k|b} \varphi(k).$ donde $k$ son todos divisores comunes de $a$ y $b$.
+
+
+## Referencias
+
+- Desde Codeforces por utkarsh.agarwal.min19  [Properties Of GCD function](https://codeforces.com/blog/entry/95694).
