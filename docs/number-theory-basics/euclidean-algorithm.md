@@ -36,8 +36,11 @@ sidebar_position: 2
 
 * Las siguientes versiones de distributividad son válidas: $gcd\left(a,\:lcm\left(b,\:c\right)\right)\:=\:lcm\left(gcd\left(a,\:b\right),\:gcd\left(a,\:c\right)\right)$ y $\:lcm\left(a,\:gcd\left(b,\:c\right)\right)\:=\:gcd\:\left(lcm\left(a,\:b\right),\:lcm\left(a,\:c\right)\right)$.
 
-* Si tenemos las factorizaciones en primos únicas de $a\:=\:p_1^{e_1}⋅p_2^{e_2}⋅p_3^{e_3}⋅⋅⋅p_m^{e_m}$ y $b=\:p_1^{f_1}⋅p_2^{f_2}⋅p_3^{f_3}⋅⋅⋅p_m^{f_m}$ donde $e_i\:\ge \:0\:$ y $\:f_i\:\ge \:0$, entonces el gcd de $a$ y $b$ es:
+* Si tenemos las factorizaciones en primos únicas de $a\:=\:p_1^{e_1}⋅p_2^{e_2}⋅p_3^{e_3}⋅⋅⋅p_m^{e_m}$ y $b=\:p_1^{f_1}⋅p_2^{f_2}⋅p_3^{f_3}⋅⋅⋅p_m^{f_m}$ donde $e_i\:\ge \:0\:$ y $\:f_i\:\ge \:0$, entonces el **gcd** de $a$ y $b$ es:
     * $$gcd\left(a,b\right)\:=\:p_1^{min\left(e_1,\:f_1\right)}\cdot p_2^{min\left(e_2,\:f_2\right)}\cdot p_3^{min\left(e_3,\:f_3\right)}\cdot \cdot \cdot p_m^{min\left(e_m,\:f_m\right)}$$.
+
+* Si tenemos las factorizaciones en primos únicas de $a\:=\:p_1^{e_1}⋅p_2^{e_2}⋅p_3^{e_3}⋅⋅⋅p_m^{e_m}$ y $b=\:p_1^{f_1}⋅p_2^{f_2}⋅p_3^{f_3}⋅⋅⋅p_m^{f_m}$ donde $e_i\:\ge \:0\:$ y $\:f_i\:\ge \:0$, entonces el **lcm** de $a$ y $b$ es:
+    * $$lcm\left(a,b\right)\:=\:p_1^{max\left(e_1,\:f_1\right)}\cdot \:p_2^{max\left(e_2,\:f_2\right)}\cdot \:p_3^{max\left(e_3,\:f_3\right)}\cdot \:\cdot \:\cdot \:p_m^{max\left(e_m,\:f_m\right)}$$.
 
 * En un sistema de coordenadas cartesianas, $gcd\left(a,\:b\right)$ puede interpretarse como el número de segmentos entre puntos con coordenadas integrales en el segmento de línea recta que une los puntos $\left(0,\:0\right)\:y\:\left(a,\:b\right).$
 

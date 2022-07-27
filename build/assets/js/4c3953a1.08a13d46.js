@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthe_coding_league_blog=self.webpackChunkthe_coding_league_blog||[]).push([[780],{1603:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/the-coding-league-blog/blog/tags/hola","allTagsPath":"/the-coding-league-blog/blog/tags","count":1}')}}]);
