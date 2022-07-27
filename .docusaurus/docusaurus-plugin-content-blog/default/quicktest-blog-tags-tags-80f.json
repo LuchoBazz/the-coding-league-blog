@@ -1,0 +1,22 @@
+[
+  {
+    "label": "facebook",
+    "permalink": "/quicktest/blog/tags/facebook",
+    "count": 1
+  },
+  {
+    "label": "hello",
+    "permalink": "/quicktest/blog/tags/hello",
+    "count": 2
+  },
+  {
+    "label": "docusaurus",
+    "permalink": "/quicktest/blog/tags/docusaurus",
+    "count": 4
+  },
+  {
+    "label": "hola",
+    "permalink": "/quicktest/blog/tags/hola",
+    "count": 1
+  }
+]

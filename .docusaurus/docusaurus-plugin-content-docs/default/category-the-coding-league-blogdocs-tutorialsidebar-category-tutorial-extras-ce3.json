@@ -1,0 +1,15 @@
+{
+  "title": "Tutorial - Extras",
+  "slug": "/category/tutorial---extras",
+  "permalink": "/the-coding-league-blog/docs/category/tutorial---extras",
+  "navigation": {
+    "previous": {
+      "title": "Tutorial Intro",
+      "permalink": "/the-coding-league-blog/docs/intro"
+    },
+    "next": {
+      "title": "Manage Docs Versions",
+      "permalink": "/the-coding-league-blog/docs/tutorial-extras/manage-docs-versions"
+    }
+  }
+}

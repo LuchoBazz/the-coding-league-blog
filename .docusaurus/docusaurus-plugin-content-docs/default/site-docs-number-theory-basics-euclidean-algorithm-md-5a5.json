@@ -1,0 +1,23 @@
+{
+  "unversionedId": "number-theory-basics/euclidean-algorithm",
+  "id": "number-theory-basics/euclidean-algorithm",
+  "title": "Algoritmo de Euclides",
+  "description": "Propiedades",
+  "source": "@site/docs/number-theory-basics/euclidean-algorithm.md",
+  "sourceDirName": "number-theory-basics",
+  "slug": "/number-theory-basics/euclidean-algorithm",
+  "permalink": "/the-coding-league-blog/docs/number-theory-basics/euclidean-algorithm",
+  "draft": false,
+  "editUrl": "https://github.com/LuisMBaezCo/the-coding-league-blog/docs/number-theory-basics/euclidean-algorithm.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Aritmetica Modular",
+    "permalink": "/the-coding-league-blog/docs/number-theory-basics/modular-arithmetic"
+  }
+}

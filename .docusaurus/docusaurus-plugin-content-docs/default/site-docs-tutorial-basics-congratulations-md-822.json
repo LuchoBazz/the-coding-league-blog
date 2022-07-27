@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tutorial-basics/congratulations",
+  "id": "tutorial-basics/congratulations",
+  "title": "Congratulations!",
+  "description": "$$",
+  "source": "@site/docs/tutorial-basics/congratulations.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/congratulations",
+  "permalink": "/the-coding-league-blog/docs/tutorial-basics/congratulations",
+  "draft": false,
+  "editUrl": "https://github.com/LuisMBaezCo/the-coding-league-blog/docs/tutorial-basics/congratulations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/the-coding-league-blog/docs/tutorial-basics/deploy-your-site"
+  },
+  "next": {
+    "title": "Tutorial - Extras",
+    "permalink": "/the-coding-league-blog/docs/category/tutorial---extras"
+  }
+}

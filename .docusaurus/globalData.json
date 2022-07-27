@@ -1,0 +1,48 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/the-coding-league-blog/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/the-coding-league-blog/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/the-coding-league-blog/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "number-theory-basics/euclidean-algorithm",
+              "path": "/the-coding-league-blog/docs/number-theory-basics/euclidean-algorithm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "number-theory-basics/modular-arithmetic",
+              "path": "/the-coding-league-blog/docs/number-theory-basics/modular-arithmetic",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/number-theory-basics",
+              "path": "/the-coding-league-blog/docs/category/number-theory-basics",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/the-coding-league-blog/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

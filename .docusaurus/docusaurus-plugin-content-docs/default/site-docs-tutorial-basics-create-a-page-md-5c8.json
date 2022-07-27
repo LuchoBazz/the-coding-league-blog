@@ -1,0 +1,27 @@
+{
+  "unversionedId": "tutorial-basics/create-a-page",
+  "id": "tutorial-basics/create-a-page",
+  "title": "Create a Page",
+  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "source": "@site/docs/tutorial-basics/create-a-page.md",
+  "sourceDirName": "tutorial-basics",
+  "slug": "/tutorial-basics/create-a-page",
+  "permalink": "/the-coding-league-blog/docs/tutorial-basics/create-a-page",
+  "draft": false,
+  "editUrl": "https://github.com/LuisMBaezCo/the-coding-league-blog/docs/tutorial-basics/create-a-page.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Algoritmo de Euclides",
+    "permalink": "/the-coding-league-blog/docs/number-theory-basics/euclidean-algorithm"
+  },
+  "next": {
+    "title": "Markdown Features",
+    "permalink": "/the-coding-league-blog/docs/tutorial-basics/markdown-features"
+  }
+}

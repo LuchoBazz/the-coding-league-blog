@@ -1,0 +1,27 @@
+{
+  "unversionedId": "number-theory-basics/modular-arithmetic",
+  "id": "number-theory-basics/modular-arithmetic",
+  "title": "Aritmetica Modular",
+  "description": "* $$\\left(x+\\mod\\=\\mod\\y\\m\\right)\\m$$",
+  "source": "@site/docs/number-theory-basics/modular-arithmetic.md",
+  "sourceDirName": "number-theory-basics",
+  "slug": "/number-theory-basics/modular-arithmetic",
+  "permalink": "/the-coding-league-blog/docs/number-theory-basics/modular-arithmetic",
+  "draft": false,
+  "editUrl": "https://github.com/LuisMBaezCo/the-coding-league-blog/docs/number-theory-basics/modular-arithmetic.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Number Theory Basics",
+    "permalink": "/the-coding-league-blog/docs/category/number-theory-basics"
+  },
+  "next": {
+    "title": "Algoritmo de Euclides",
+    "permalink": "/the-coding-league-blog/docs/number-theory-basics/euclidean-algorithm"
+  }
+}

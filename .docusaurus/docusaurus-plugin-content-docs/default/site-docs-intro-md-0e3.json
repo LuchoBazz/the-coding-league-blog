@@ -1,0 +1,23 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "title": "Introducción",
+  "description": "",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/the-coding-league-blog/docs/intro",
+  "draft": false,
+  "editUrl": "https://github.com/LuisMBaezCo/the-coding-league-blog/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Number Theory Basics",
+    "permalink": "/the-coding-league-blog/docs/category/number-theory-basics"
+  }
+}
